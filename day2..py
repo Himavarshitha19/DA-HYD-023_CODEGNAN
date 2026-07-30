@@ -1,18 +1,18 @@
-'''
+
 Tokens -->Variables,Punctuators
 Variables --->Name memory location, its a placeholder for data
 #Rules are to be followed
-'''
+
 #MultiAssignment of Variables
-'''
+
 name,age,place = 'Codegnan','7','Hyderabad'
 print(name,age,place)
 print(name,age,place,sep=',')
 print(name,age,place,sep='------>')
-'''
+
 #a,b = 2,4,5 #ValueError as too many values to unpack
 #reassigning variables
-''''
+
 name = "Codegnan"
 a,b = 45,1.5 
 print(a,b)
@@ -31,12 +31,12 @@ print(a,b)
 #punctuators --->[],{},()
 name="Codegnan";age = 7;course = 'Data_Analysis'
 print(name,age,course)
-'''
+
 #Datatypes --->Numeric ,Sequences
 
 #Numeric type--->int,float,complex
 #int dattype--> quantity,age...
-'''
+
 age = 7
 print(age)
 print(type(age)) #type ---> returns the datatype of object
@@ -50,9 +50,9 @@ print(type(234))
 price = 750.24;discount = 2.5
 print(price,discount)
 print(type(price))
-'''
+
 #complex --->combination of real and imag
-'''
+
 i2 = 4
 data = 5+i2
 print(data)
@@ -68,7 +68,7 @@ print(type(valid))
 
 error = False
 print(type(error))
-'''
+
 #TypeCasting --->Converting one type to another type
 #Python by default follows Implicit Type(we need not mention the datatype)
 
