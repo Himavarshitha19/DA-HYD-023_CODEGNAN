@@ -2,7 +2,7 @@
 #Accepting integer input from user
 #by default input() accepts any input -->str
 #int(input()) --->will accept only integers
-'''
+
 age  = int(input('Enter the age: '))
 print(age)
 print(type(age))
@@ -62,13 +62,13 @@ print(5//3)
 print(5%3)
 #Power(exponential)
 print(5**3)
-'''
+
 #Accept integer input as length ,breadth-->find the area of rectangle
 #area = length *breadth
 length , breadth = map(int,input('Enter the values:').split(','))
 area = length*breadth
 print(area)
-'''
+
 #Assignment operators--->assign the values
 # = , +=, -=
 a = 45
@@ -133,7 +133,7 @@ print(c is a)
 
 b = [1,3,5,2,7]
 print(id(b))
-'''
+
 
 
 
