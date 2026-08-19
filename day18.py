@@ -5,7 +5,7 @@ Functions-->Variable length arguments(*args)
 #we can pass any number of positional arguments,but we need to use the *representation,
 #data is stored in tuple.
 '''
-'''
+
 def sample(*args):
     """Simple demo for args"""
     print(args)
@@ -27,11 +27,11 @@ print(b)
 print(c)
 c.extend([23,45,6,7])
 print(c)
-'''
+
 
 
 #Task-->We wanted to calculate the sum of given objects using Function
-
+'''
 def add(*a):
     """Sum of given objects"""
     print(a)
@@ -51,15 +51,15 @@ def add(*a):
 #print(add(3,4,5,'poll','dear',45,4.5))
 
 #if user want in dynamic then
-#b= list(map(int,input("Enter the values").split(',')))
-#print(add(*b)) # * is used to unpack the values from collection 
-#print(b)
+b= list(map(int,input("Enter the values").split(',')))
+print(add(*b)) # * is used to unpack the values from collection 
+print(b)
 #print(*b) #it returns each value side by side
-#for i in b:
-#    print(i,end=' ') #same as here
+for i in b:
+    print(i,end=' ') #same as here
 '''
 
-'''
+
 #Keyword variable length arguments--> we can pass any number of keyword
 #arguments we use ** representation ,data is stored in dictionary
 '''   
