@@ -48,7 +48,7 @@ print(c)
 
 #Task-->we wanted to calculate the sum of given objects using function
 '''
-ef add(*a):
+def add(*a):
     """"Sum of given objects"""
     print(a)
     print(type(a))
