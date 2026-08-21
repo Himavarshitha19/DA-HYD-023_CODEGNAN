@@ -1,5 +1,5 @@
 #Task1---->E-commerce
-'''
+
 total=0
 for i in range():
     products=input('Enter product name:')
@@ -13,10 +13,10 @@ total = 0
 for i in products:
     total = total+i
 print(total)
-'''
+
 
 #Task2--->Password analyzer
-'''
+
 password=input('Enter password:')
 upper=0
 lower=0
@@ -42,7 +42,7 @@ print('Special character:',special)
 email=input().split()
 for mail in email:
     print(mail.split('@')[1])
-'''
+
 
 #Task4--->print the movie names with serial numbers
 for i in range(1,6):

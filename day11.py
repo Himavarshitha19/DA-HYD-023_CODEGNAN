@@ -1,4 +1,4 @@
-'''
+
 #passing the number using while loop
 secret = 123
 guess=int(input("Enter the number:"))
@@ -33,7 +33,7 @@ while food != "EXIT":
     order = input("Enter the order:")
 
 print("Total no of items ordered",count)
-'''
+
 secret = "python"
 current = 0
 max_attempts = 3

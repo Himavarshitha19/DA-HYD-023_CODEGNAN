@@ -1,4 +1,4 @@
-'''
+
 #Test Case Converter
 text = input('Enter the text:')
 print('Lower:',text.lower())
@@ -29,7 +29,7 @@ if name != " ":
         print("ASCII characters only")
 else:
     print("Username cannot be empty")    
-'''
+
 #Formatted student report
 
 print("Student report")
@@ -46,7 +46,7 @@ for i in range(3):
         grade = "Fail"
     print(name.ljust(10), str(marks).rjust(5), grade.rjust(5))
 
-#character and Text analyzer
+
 
 
 

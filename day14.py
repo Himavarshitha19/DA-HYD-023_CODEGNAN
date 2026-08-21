@@ -135,11 +135,11 @@ print(e)
 #Tuples are immutable so they are only 2 things to do
 #-->count(),index()
 #count--no of occurances,-->index---position
-
+'''
 courses=('PFS','JFS',('DA','DS'),'AgenticAI',[100,6,6])
 print(courses.index('AgenticAI'))#returns first occurance
 print(courses.count('Agents'))
-'''
+
 print(courses.sort()) #AttributeError--->sort() is in Lists not in tuples
 
 print(sorted(courses[-1]))

@@ -1,4 +1,4 @@
-'''
+
 marks = int(input('Enter the marks(1-100:'))
 if marks > 0 and marks <= 100:
     if marks >= 90:
@@ -81,7 +81,7 @@ salary = 24578.32
 print('His salary is %d'%(salary))
 print('His salary is %f'%(salary))
 print('His salary is %.1f'%(salary)) #%.1f --->rounding to 1 decimal
-'''
+
 #.format() usage
 name ='Codegnan';age=7;batch='DA-023';place='Hyderabad'
 print('{} is in {}'.format(name,place)) #order matters

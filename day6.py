@@ -1,12 +1,12 @@
-''''
+
 Control statements ----->
   ---->Repetition Statements(Loops)---->for, while(for with else,while with else)
   ----->Jumping Statements---->break,continue,pass
- '''
+ 
 #Loops--->loops are helpful for repetiton (Automative tasks)
 #for keyword will be helpful to iterate over a sequence / range
 #Syntax for (for keyword):
-'''
+
 for <temp_var> in sequence/range:
      statement(s).......
      ......
@@ -69,10 +69,10 @@ print(f'Sum of 10 even numbers is {result}')
 
 #understand the loops usage with Fitness Streak example
 #work_out ---->1,work_out_missed---->0
-'''
+
 work_log = [0,1,1,1,0,1,0]
 #result variable ---->longest_streak
-longest_streak = 0
+longest_streak = 0 #target variable
 current_streak = 0
 for day in work_log:
     if day == 1:
